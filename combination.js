@@ -1,7 +1,7 @@
 function combinations(arr) {
   let res = 1;
 
-  for (let i = 0; i < arr.length; i++) {
+  for (i = 0; i < arr.length; i++) {
     if (!arr[i] == 0) {
       res = res * arr[i];
     }
